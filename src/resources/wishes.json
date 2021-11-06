@@ -1,0 +1,31 @@
+[
+    {
+        "who": "o",
+        "wish": {
+            "what": "SWIMS Attache Navy",
+            "link": "https://swims.com/no/attache-navy"
+        }
+    },
+    {
+        "who": "k",
+        "wish": {
+            "what": "Ullsokker",
+            "description": "Helst hjemmestrikket"
+        }
+    },
+    {
+        "who": "a",
+        "wish": {
+            "what": "LEGO Carnotaurus jakten",
+            "link": "https://www.lego.com/en-us/product/carnotaurus-dinosaur-chase-76941"
+        }
+    },
+    {
+        "who": "o",
+        "wish": {
+            "what": "Klattermusen genser",
+            "link": "https://www.klattermusen.com/en/sale/mens-mid-layers/20619m81-falen-wooly-hoodie-ms-raven/",
+            "description": "Størrelse L"
+        }
+    }
+]
