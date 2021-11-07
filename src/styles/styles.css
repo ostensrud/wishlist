@@ -43,7 +43,7 @@ h1 {
 
 .wish {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
 
   justify-content: space-between;
 }
@@ -54,6 +54,9 @@ h1 {
 
 .description {
   flex: 1 1 100%;
+  font-size: clamp(0.75rem, 2vw, 1.5rem);
+  color: hsl(44, 0%, 25%);
+  font-weight: 400;
 }
 
 .item {
