@@ -1,0 +1,75 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --padding-m: 6vmin 1rem;
+}
+
+body {
+  min-width: 385px;
+}
+
+.container {
+  max-width: 1024px;
+  padding: 1rem;
+  margin: 0 auto;
+}
+
+.card {
+  border: 2px solid #000;
+  border-radius: 1rem;
+  padding: 1rem;
+}
+
+.card + .card {
+  margin-top: 1rem;
+}
+
+.wish {
+  display: flex;
+  flex-direction: row;
+
+  justify-content: space-between;
+}
+
+.description {
+  width: 20rem;
+}
+
+.link {
+  width: 10rem;
+}
+
+.item {
+  width: 20rem;
+}
+
+.wish + .wish {
+  margin-top: 1rem;
+}
+
+header {
+  background: hsl(264, 100%, 51%);
+  color: hsl(0, 0%, 100%);
+
+  padding: var(--padding-m);
+
+  display: flex;
+  justify-content: center;
+}
+
+@media screen and (max-width: 572px) {
+  .wish {
+    flex-direction: column;
+  }
+
+  h1 {
+    font-size: 1rem;
+  }
+}
