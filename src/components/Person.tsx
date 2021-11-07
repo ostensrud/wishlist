@@ -5,7 +5,7 @@ type PersonTypes = {
 }
 
 const Person = ({ name }: PersonTypes) => (
-  <div>
+  <div className="person">
     <h2>{name}</h2>
   </div>
 )

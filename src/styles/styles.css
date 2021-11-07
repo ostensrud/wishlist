@@ -13,6 +13,7 @@
 
 body {
   min-width: 385px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .container {
@@ -27,6 +28,10 @@ body {
   padding: 1rem;
 }
 
+h1 {
+  font-size: clamp(2rem, 5vw, 10vw);
+}
+
 .card + .card {
   margin-top: 1rem;
 }
@@ -36,6 +41,10 @@ body {
   flex-direction: row;
 
   justify-content: space-between;
+}
+
+.person {
+  margin-bottom: 0.5rem;
 }
 
 .description {
@@ -67,9 +76,5 @@ header {
 @media screen and (max-width: 572px) {
   .wish {
     flex-direction: column;
-  }
-
-  h1 {
-    font-size: 1rem;
   }
 }

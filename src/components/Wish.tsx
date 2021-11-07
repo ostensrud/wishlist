@@ -10,6 +10,7 @@ type WishTypes = {
 const Wish = ({ wish }: WishTypes) => (
   <div className="wish">
     <div className="item">{wish.what}</div>
+    <div className="description">{wish.description || " "}</div>
     <div className="link">
       {wish.link && (
         <a href={wish.link} target="_blank">
@@ -17,7 +18,6 @@ const Wish = ({ wish }: WishTypes) => (
         </a>
       )}
     </div>
-    <div className="description">{wish.description || " "}</div>
   </div>
 )
 
