@@ -6,6 +6,8 @@ import "../styles/styles.css"
 import { Person } from "../components/Person"
 import { Wish } from "../components/Wish"
 import JSONData from "../resources/wishes.json"
+import { Wishes } from "../components/Wishes"
+import { Card } from "../components/Card"
 
 const IndexPage = () => (
   <div>
@@ -16,30 +18,18 @@ const IndexPage = () => (
       <h1>Ønskeliste</h1>
     </header>
     <main className="container">
-      <div className="card">
-        <div className="content">
-          <Person name={"Alfred"} />
-          {JSONData.filter(o => o.who === "a").map(o => (
-            <Wish wish={o.wish} />
-          ))}
-        </div>
-      </div>
-      <div className="card">
-        <div className="content">
-          <Person name={"Kjersti"} />
-          {JSONData.filter(o => o.who === "k").map(o => (
-            <Wish wish={o.wish} />
-          ))}
-        </div>
-      </div>
-      <div className="card">
-        <div className="content">
-          <Person name={"Øivind"} />
-          {JSONData.filter(o => o.who === "o").map(o => (
-            <Wish wish={o.wish} />
-          ))}
-        </div>
-      </div>
+      <Card>
+        <Person name={"Alfred"} />
+        <Wishes wishes={JSONData} filterParam="a" />
+      </Card>
+      <Card>
+        <Person name={"Kjersti"} />
+        <Wishes wishes={JSONData} filterParam="k" />
+      </Card>
+      <Card>
+        <Person name={"Øivind"} />
+        <Wishes wishes={JSONData} filterParam="o" />
+      </Card>
     </main>
   </div>
 )
