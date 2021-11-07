@@ -9,27 +9,28 @@
 
 :root {
   --padding-m: 6vmin 1rem;
+  --card-border-color: hsl(0, 0%, 0%);
 }
 
 body {
   min-width: 385px;
   font-family: Arial, Helvetica, sans-serif;
-}
-
-.container {
-  max-width: 1024px;
-  padding: 1rem;
-  margin: 0 auto;
+  font-size: clamp(1rem, 3vw, 2rem);
 }
 
 .card {
-  border: 2px solid #000;
-  border-radius: 1rem;
   padding: 1rem;
+  width: 100%;
+  background: #b8d8d8;
+}
+
+.card .content {
+  max-width: 1024px;
+  margin: 0 auto;
 }
 
 h1 {
-  font-size: clamp(2rem, 5vw, 10vw);
+  font-size: clamp(2rem, 5vw, 4rem);
 }
 
 .card + .card {
@@ -48,15 +49,11 @@ h1 {
 }
 
 .description {
-  width: 20rem;
-}
-
-.link {
-  width: 10rem;
+  flex: 1 1 100%;
 }
 
 .item {
-  width: 20rem;
+  flex: 1 1 100%;
 }
 
 .wish + .wish {
@@ -64,7 +61,8 @@ h1 {
 }
 
 header {
-  background: hsl(264, 100%, 51%);
+  /* background: hsl(264, 100%, 51%);B8D8D8 */
+  background: #4f6367;
   color: hsl(0, 0%, 100%);
 
   padding: var(--padding-m);

@@ -17,22 +17,28 @@ const IndexPage = () => (
     </header>
     <main className="container">
       <div className="card">
-        <Person name={"Alfred"} />
-        {JSONData.filter(o => o.who === "a").map(o => (
-          <Wish wish={o.wish} />
-        ))}
+        <div className="content">
+          <Person name={"Alfred"} />
+          {JSONData.filter(o => o.who === "a").map(o => (
+            <Wish wish={o.wish} />
+          ))}
+        </div>
       </div>
       <div className="card">
-        <Person name={"Kjersti"} />
-        {JSONData.filter(o => o.who === "k").map(o => (
-          <Wish wish={o.wish} />
-        ))}
+        <div className="content">
+          <Person name={"Kjersti"} />
+          {JSONData.filter(o => o.who === "k").map(o => (
+            <Wish wish={o.wish} />
+          ))}
+        </div>
       </div>
       <div className="card">
-        <Person name={"Øivind"} />
-        {JSONData.filter(o => o.who === "o").map(o => (
-          <Wish wish={o.wish} />
-        ))}
+        <div className="content">
+          <Person name={"Øivind"} />
+          {JSONData.filter(o => o.who === "o").map(o => (
+            <Wish wish={o.wish} />
+          ))}
+        </div>
       </div>
     </main>
   </div>
