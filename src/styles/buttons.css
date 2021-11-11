@@ -1,0 +1,8 @@
+.button {
+  font-size: 2rem;
+  padding: 0.5rem;
+}
+
+.button.selected {
+  background-color: hsl(174, 78%, 40%);
+}

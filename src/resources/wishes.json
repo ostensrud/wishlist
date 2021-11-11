@@ -3,21 +3,24 @@
         "who": "o",
         "wish": {
             "what": "SWIMS Attache Navy",
-            "link": "https://swims.com/no/attache-navy"
+            "link": "https://swims.com/no/attache-navy",
+            "showTo": "aarnes"
         }
     },
     {
         "who": "k",
         "wish": {
             "what": "Gavekort",
-            "description": "På Amazon.com, ebok.no"
+            "description": "På Amazon.com, ebok.no",
+            "showTo": "aarnes"
         }
     },
     {
         "who": "a",
         "wish": {
             "what": "LEGO Carnotaurus jakten",
-            "link": "https://www.lego.com/en-us/product/carnotaurus-dinosaur-chase-76941"
+            "link": "https://www.lego.com/en-us/product/carnotaurus-dinosaur-chase-76941",
+            "showTo": "aarnes"
         }
     },
     {
