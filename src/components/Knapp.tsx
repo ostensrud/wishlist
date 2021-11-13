@@ -11,14 +11,18 @@ type KnappTypes = {
 
 const Knapp = ({ name, text, onClick, isSelected }: KnappTypes) => {
   console.log(isSelected + " " + name)
-  const classNames = `button ${isSelected ? "selected" : ""}`
+  const classNames = `button__front ${
+    isSelected ? "button__front--selected" : ""
+  }`
   return (
     <button
       name={name}
       onClick={!isSelected ? onClick : () => {}}
-      className={classNames}
+      className={"button__back"}
     >
-      {text}
+      <span className={classNames}>
+        <span className="buttontext">{text}</span>
+      </span>
     </button>
   )
 }

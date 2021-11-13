@@ -24,18 +24,20 @@ const IndexPage = () => {
         <Card>
           <h2>Hvor eru bor hen a?</h2>
           <h3>Eyh la meg ta det med til ah, ta-ta deg med til</h3>
-          <Knapp
-            onClick={() => setLocation("skien")}
-            name="skien"
-            text="Skien"
-            isSelected={location === "skien"}
-          />
-          <Knapp
-            onClick={() => setLocation("aarnes")}
-            name="aarnes"
-            text="Årnes"
-            isSelected={location === "aarnes"}
-          />
+          <div className="button-row">
+            <Knapp
+              onClick={() => setLocation("skien")}
+              name="skien"
+              text="Skien"
+              isSelected={location === "skien"}
+            />
+            <Knapp
+              onClick={() => setLocation("aarnes")}
+              name="aarnes"
+              text="Årnes"
+              isSelected={location === "aarnes"}
+            />
+          </div>
         </Card>
         <Card>
           <Person name={"Alfred"} />
