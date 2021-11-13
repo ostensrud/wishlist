@@ -11,8 +11,7 @@
         "who": "k",
         "wish": {
             "what": "Gavekort",
-            "description": "På Amazon.com, ebok.no",
-            "showTo": "aarnes"
+            "description": "På Audible.co.uk, ebok.no"
         }
     },
     {
@@ -28,7 +27,8 @@
         "wish": {
             "what": "Klattermusen genser",
             "link": "https://www.klattermusen.com/en/sale/mens-mid-layers/20619m81-falen-wooly-hoodie-ms-raven/",
-            "description": "Størrelse L, farge 'Raven'"
+            "description": "Størrelse L, farge 'Raven'",
+            "showTo": "aarnes"
         }
     },
     {
@@ -42,14 +42,110 @@
         "who": "a",
         "wish": {
             "what": "Spider Man action figur",
-            "link": "https://www.extra-leker.no/marvel-spider-man-titan-hero-armored-spider-man"
+            "link": "https://www.extra-leker.no/marvel-spider-man-titan-hero-armored-spider-man",
+            "showTo": "aarnes"
         }
     },
     {
         "who": "k",
         "wish":{
             "what": "Liten fulgemater fra Eva Solo",
-            "link": "https://www.evasolo.com/en/house-and-garden/garden/feeding/window-bird-feeder/571048/"
+            "link": "https://www.evasolo.com/en/house-and-garden/garden/feeding/window-bird-feeder/571048/",
+            "showTo": "aarnes"
+        }
+    },
+    {
+        "who": "k",
+        "wish":{
+            "what": "Servietter fra Georg Jensen",
+            "link": "https://www.georgjensen-damask.no/2-stk-plain-lin-servietter/"
+        }
+    },
+    {
+        "who": "k",
+        "wish":{
+            "what": "Håndhåndklær i juvélfarver",
+            "description": "Mørk grønn, mørk blå, burgunderrød, sennepsgul"
+        }
+    },
+    {
+        "who": "k",
+        "wish": {
+            "what": "Skjæreresistent hanske fra Microplane",
+            "link": "https://www.kitchn.no/nettbutikk/kjokkenutstyr/kjokkenredskaper/34027/?utm_source=google&utm_medium=surfaces&utm_campaign=shopping&gclid=CjwKCAiAm7OMBhAQEiwArvGi3G66Etl-ajaOFhnkQTZRuQh3dWAWTHAn_MiCf815cnOfUReTGTWbHhoC3GEQAvD_BwE",
+            "showTo": "skien"
+        }
+    },
+    {
+        "who": "k",
+        "wish": {
+            "what": "Grillhansker",
+            "link": "https://www.jernia.no/kjøkken/tekstil/kjøkkentekstil/grytevott/weber-grillvottsett-l-xl-premium/p/58009535",
+            "showTo": "skien"
+        }
+    },
+    {
+        "who": "k",
+        "wish": {
+            "what": "Boka til Siv Jensen",
+            "showTo": "skien"
+        }
+    },
+    {
+        "who": "k",
+        "wish": {
+            "what": "Opplevelser"
+        }
+    },
+    {
+        "who": "k",
+        "wish": {
+            "what": "Ullfrotté sokker"
+        }
+    },
+    {
+        "who": "o",
+        "wish": {
+            "what": "Slappe-av-hjemme-bukser fra Tufte (el). Str xl",
+            "link": "https://tuftewear.no/collections/herre-bukser/products/mens-sweatpants?variant=34327284285571",
+            "showTo": "skien"
+        }
+    },
+    {
+        "who": "o",
+        "wish": {
+            "what": "Norges vakreste sykkelturer",
+            "link": "https://www.ark.no/boker/Henrik-Alpers-Norges-vakreste-sykkelturer-9788293090915?gclid=Cj0KCQiA4b2MBhD2ARIsAIrcB-SDNXgQOP4GeNlKcUUEEufUnBvmXuKHQlIBWDgW_AB47_OoZ-loOKYaAhGMEALw_wcB&gclsrc=aw.ds",
+            "showTo": "skien"
+        }
+    },
+    {
+        "who":"o",
+        "wish": {
+            "what": "Boxer-briefs fra Tufte, str m",
+            "link": "https://tuftewear.no/collections/herre-undertoy"
+        }
+    },
+    {
+        "who": "a",
+        "wish": {
+            "what": "Bowsers slott",
+            "link": "https://www.lego.com/nb-no/product/bowser-s-castle-boss-battle-expansion-set-71369",
+            "showTo": "skien"
+        }
+    },
+    {
+        "who": "o",
+        "wish": {
+            "what": "Stort LEGO-sett jeg kan bygge sammen med Alfred",
+            "description": "Eksempelvis Ghostbusters ECTO-1, Liebherr R 9800, etc",
+            "link": "https://www.lego.com/nb-no/product/ghostbusters-ecto-1-10274"
+        }
+    },
+    {
+        "who": "a",
+        "wish": {
+            "what": "Bøker!"
         }
     }
 ]
