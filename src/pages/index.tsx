@@ -51,6 +51,10 @@ const IndexPage = () => {
           <Person name={"Øivind"} />
           <Wishes wishes={JSONData} filterParam="o" locationFilter={location} />
         </Card>
+        <Card>
+          <Person name={"Felles"} />
+          <Wishes wishes={JSONData} filterParam="f" locationFilter={location} />
+        </Card>
       </main>
     </div>
   )

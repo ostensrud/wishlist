@@ -35,7 +35,8 @@
         "who": "a",
         "wish": {
             "what": "LEGO Indominus Rex vs. Ankylosaurus",
-            "link": "https://www.lego.com/en-us/product/indominus-rex-vs-ankylosaurus-75941"
+            "link": "https://www.lego.com/en-us/product/indominus-rex-vs-ankylosaurus-75941",
+            "showTo": "skien"
         }
     },
     {
@@ -146,6 +147,20 @@
         "who": "a",
         "wish": {
             "what": "Bøker!"
+        }
+    },
+    {
+        "who": "f",
+        "wish": {
+            "what": "Vedkløyver",
+            "link": "https://www.felleskjopet.no/hjem-og-fritid/skog-og-ved/vedproduksjon/kappsager-og-vedkloeyvere/kindling-cr-std-slager-135-kg-50324813/"
+        }
+    },
+    {
+        "who": "a",
+        "wish": {
+            "what": "Folkeeventyr",
+            "description": "Illustrerte, eller tilpasset for barn"
         }
     }
 ]
