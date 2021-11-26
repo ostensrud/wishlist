@@ -162,5 +162,33 @@
             "what": "Folkeeventyr",
             "description": "Illustrerte, eller tilpasset for barn"
         }
+    },
+    {
+        "who": "a",
+        "wish": {
+            "what": "Alle tiders dinosaurer",
+            "link": "https://www.haugenbok.no/alle-tiders-dinosaurer/egerkrans-johan/9788243011960?gclid=CjwKCAiAqIKNBhAIEiwAu_ZLDif-UjRSUihLyjwpS98J_3A3SRzSswGaR5QsJMuGCk4jfvCRn8x5gRoCXrsQAvD_BwE"
+        }
+    },
+    {
+        "who": "a",
+        "wish": {
+            "what": "Dinosaurer og forhistoriske dyr",
+            "link": "https://www.haugenbok.no/dinosaurer-og-forhistoriske-dyr/9788293346500?gclid=CjwKCAiAqIKNBhAIEiwAu_ZLDp7S6-XXPro0QSUOkRRaEnYiC6TgKV8XD4yoanvtX-fSE6NtyNNsURoC8scQAvD_BwE"
+        }
+    },
+    {
+        "who": "a",
+        "wish": {
+            "what": "Barnas beste: Asbjørnsen og Moe - Eventyr",
+            "link": "https://www.cappelendamm.no/_barnas-beste-asbjornsen-og-moe---eventyr-asbjornsen-og-moe-9788202523718"
+        }
+    },
+    {
+        "who": "a",
+        "wish": {
+            "what": "Supervulkaner og digre dinosaurer",
+            "link": "https://www.haugenbok.no/supervulkaner-og-digre-dinosaurer/muller-reidar/9788203265358?gclid=CjwKCAiAqIKNBhAIEiwAu_ZLDmq8YhFltUq2tp7X_wAZRGV8xfA4viOZeuHd_RRpGyB84OFTKlEZmBoCqJ0QAvD_BwE"
+        }
     }
 ]
