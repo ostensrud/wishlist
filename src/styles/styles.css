@@ -11,6 +11,11 @@
   --padding-m: 6vmin 1rem;
   --card-border-color: hsl(0, 0%, 0%);
   --shadow: 4.8px 9.6px 9.6px hsl(0deg 0% 0% / 0.35);
+  --text-color: hsla(0, 0%, 100%, 0.804);
+}
+
+a:visited {
+  color: hsl(0, 0%, 0%);
 }
 
 body {
@@ -21,12 +26,14 @@ body {
   background: url("../images/jeshoots-com-7VOyZ0-iO0o-unsplash.jpg") no-repeat
     center center fixed;
   background-size: cover;
+  color: var(--text-color);
 }
 
 .card {
   padding: 1rem;
   width: 100%;
-  background: #b8d8d8;
+  /* background: #b8d8d8; */
+  background-color: #0c6d4b;
   box-shadow: var(--shadow);
 }
 
@@ -57,8 +64,7 @@ h1 {
 
 .description {
   flex: 1 1 100%;
-  font-size: clamp(0.75rem, 2vw, 1.5rem);
-  color: hsl(44, 0%, 25%);
+  font-size: clamp(0.75rem, 3vw, 1.5rem);
   font-weight: 400;
 }
 
@@ -72,8 +78,8 @@ h1 {
 
 header {
   /* background: hsl(264, 100%, 51%);B8D8D8 */
-  background: #4f6367;
-  color: hsl(0, 0%, 100%);
+  /* background: #4f6367; */
+  background-color: #CC231E;
 
   padding: var(--padding-m);
 

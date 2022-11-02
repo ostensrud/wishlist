@@ -1,23 +1,14 @@
 import React from "react"
+import { Who, WishType } from "../types/WishType"
 import { Wish } from "./Wish"
 
-type WishType = {
-  who: string
-  wish: {
-    what: string
-    description?: string
-    link?: string
-    showTo?: string
-  }
-}
-
-type WishesTypes = {
+type WishProps = {
   wishes: WishType[]
-  filterParam: string
+  filterParam: Who
   locationFilter?: string
 }
 
-const Wishes = ({ wishes, filterParam, locationFilter }: WishesTypes) => {
+const Wishes = ({ wishes, filterParam, locationFilter }: WishProps) => {
   const wishesNoLocation = wishes
     .filter(wish => wish.who === filterParam)
     .filter(wish => !wish.wish.showTo)

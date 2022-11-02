@@ -1,27 +1,30 @@
 import React, { useState } from "react"
-import { Helmet } from "react-helmet"
 
 import "../styles/styles.css"
 
-import { Person } from "../components/Person"
-import JSONData from "../resources/wishes.json"
-import { Wishes } from "../components/Wishes"
 import { Card } from "../components/Card"
 import { Knapp } from "../components/Knapp"
+import { Person } from "../components/Person"
+import { Wishes } from "../components/Wishes"
+import { Who } from "../types/WishType"
+import { getYear } from "date-fns"
+import { wishlist } from "../resources/wishes"
+
+const Head = () => <title>Ønskeliste</title>
 
 const IndexPage = () => {
   const [location, setLocation] = useState<string | undefined>()
-  console.log(location)
+  const aar = getYear(new Date())
+  console.log(wishlist)
+  const thisYearsWishes = wishlist[aar]
   return (
     <div>
-      <Helmet>
-        <title>Ønskeliste</title>
-      </Helmet>
+      <Head />
       <header>
         <h1>Ønskeliste</h1>
       </header>
       <main className="container">
-        <Card>
+        {/* <Card>
           <h2>Hvor eru bor hen a?</h2>
           <h3>Eyh la meg ta det med til ah, ta-ta deg med til</h3>
           <div className="button-row">
@@ -38,22 +41,38 @@ const IndexPage = () => {
               isSelected={location === "aarnes"}
             />
           </div>
-        </Card>
+        </Card> */}
         <Card>
           <Person name={"Alfred"} />
-          <Wishes wishes={JSONData} filterParam="a" locationFilter={location} />
+          <Wishes
+            wishes={thisYearsWishes}
+            filterParam={Who.a}
+            locationFilter={location}
+          />
         </Card>
         <Card>
           <Person name={"Kjersti"} />
-          <Wishes wishes={JSONData} filterParam="k" locationFilter={location} />
+          <Wishes
+            wishes={thisYearsWishes}
+            filterParam={Who.k}
+            locationFilter={location}
+          />
         </Card>
         <Card>
           <Person name={"Øivind"} />
-          <Wishes wishes={JSONData} filterParam="o" locationFilter={location} />
+          <Wishes
+            wishes={thisYearsWishes}
+            filterParam={Who.o}
+            locationFilter={location}
+          />
         </Card>
         <Card>
           <Person name={"Felles"} />
-          <Wishes wishes={JSONData} filterParam="f" locationFilter={location} />
+          <Wishes
+            wishes={thisYearsWishes}
+            filterParam={Who.f}
+            locationFilter={location}
+          />
         </Card>
       </main>
     </div>
