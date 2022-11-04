@@ -6,7 +6,7 @@ export const wishlist: AllTheWishes = {
       who: Who.o,
       wish: {
         what: "Fjällräven Keb Bukse",
-        description: "Lang utgave",
+        description: "Lang utgave, 33 i livet. Dark Navy, Light Olive",
         link: "https://www.fjallraven.com/no/no/herre/bukser/turbukser/keb-trousers-m-long?v=F85656%3a%3a7323450795870",
       },
     },
@@ -21,6 +21,13 @@ export const wishlist: AllTheWishes = {
       who: Who.f,
       wish: {
         what: "Stormkjøkken",
+      },
+    },
+    {
+      who: Who.f,
+      wish: {
+        what: "IKEA Symfonisk, hvit",
+        link: "https://www.ikea.com/no/no/p/symfonisk-tradlos-bokhyllehoyttaler-hvit-smart-generasjon-2-50506587/?utm_source=google&utm_medium=surfaces&utm_campaign=shopping_feed&utm_content=free_google_shopping_clicks_Homeelectronics&gclid=EAIaIQobChMI7uSL9e-U-wIVN0CRBR0BqQL3EAQYAyABEgIp8PD_BwE&gclsrc=aw.ds",
       },
     },
   ],
