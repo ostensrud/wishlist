@@ -15,7 +15,6 @@ const Head = () => <title>Ønskeliste</title>
 const IndexPage = () => {
   const [location, setLocation] = useState<string | undefined>()
   const aar = getYear(new Date())
-  console.log(wishlist)
   const thisYearsWishes = wishlist[aar]
   return (
     <div>
