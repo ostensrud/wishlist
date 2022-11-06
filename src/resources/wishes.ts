@@ -30,6 +30,14 @@ export const wishlist: AllTheWishes = {
         link: "https://www.ikea.com/no/no/p/symfonisk-tradlos-bokhyllehoyttaler-hvit-smart-generasjon-2-50506587/?utm_source=google&utm_medium=surfaces&utm_campaign=shopping_feed&utm_content=free_google_shopping_clicks_Homeelectronics&gclid=EAIaIQobChMI7uSL9e-U-wIVN0CRBR0BqQL3EAQYAyABEgIp8PD_BwE&gclsrc=aw.ds",
       },
     },
+    {
+      who: Who.o,
+      wish: {
+        what: "T-skjorte i merinoull",
+        description: "Hvis det er fra Tufte må det være størrelse Large",
+        link: "https://tuftewear.no/collections/herre-t-skjorter/products/tufte-mens-frost-merino-t-shirt?variant=39288570085507",
+      },
+    },
   ],
   "2021": [
     {
