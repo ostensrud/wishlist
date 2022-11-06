@@ -16,7 +16,7 @@
 
 a,
 a:visited {
-  color: hsl(0, 0%, 0%);
+  color: hsl(275, 100%, 95%);
 }
 
 body {
@@ -57,6 +57,7 @@ h1 {
   flex-direction: column;
 
   justify-content: space-between;
+
 }
 
 .person {
@@ -67,6 +68,7 @@ h1 {
   flex: 1 1 100%;
   font-size: clamp(0.75rem, 3vw, 1.5rem);
   font-weight: 400;
+  margin-top: 0.5rem;
 }
 
 .item {
@@ -74,7 +76,7 @@ h1 {
 }
 
 .wish + .wish {
-  margin-top: 1rem;
+  margin-top: 1.5rem;
 }
 
 header {
