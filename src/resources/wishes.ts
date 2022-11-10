@@ -20,7 +20,8 @@ export const wishlist: AllTheWishes = {
     {
       who: Who.f,
       wish: {
-        what: "Stormkjøkken",
+        what: "Stormkjøkken / Gassbrenner",
+        link: "https://www.fjellsport.no/merker/msr/msr-windburner-1-0l-personal-stove-red-1l",
       },
     },
     {
