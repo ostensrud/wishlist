@@ -11,7 +11,7 @@
   --padding-m: 6vmin 1rem;
   --card-border-color: hsl(0, 0%, 0%);
   --shadow: 4.8px 9.6px 9.6px hsl(0deg 0% 0% / 0.35);
-  --text-color: hsla(0, 0%, 100%, 0.804);
+  --text-color: hsla(0, 0%, 100%);
 }
 
 a,
@@ -33,8 +33,8 @@ body {
 .card {
   padding: 1rem;
   width: 100%;
-  /* background: #b8d8d8; */
-  background-color: #0c6d4b;
+  background: rgb(42,121,9);
+  background: linear-gradient(180deg, rgba(42,121,9,1) 0%, rgba(6,65,0,1) 100%);
   box-shadow: var(--shadow);
 }
 
@@ -80,9 +80,8 @@ h1 {
 }
 
 header {
-  /* background: hsl(264, 100%, 51%);B8D8D8 */
-  /* background: #4f6367; */
-  background-color: #CC231E;
+  background: rgb(42,121,9);
+  background: linear-gradient(-45deg, rgba(42,121,9,1) 0%, rgba(255,0,0,1) 100%);
 
   padding: var(--padding-m);
 
