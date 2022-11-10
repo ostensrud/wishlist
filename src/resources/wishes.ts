@@ -39,6 +39,14 @@ export const wishlist: AllTheWishes = {
         link: "https://tuftewear.no/collections/herre-t-skjorter/products/tufte-mens-frost-merino-t-shirt?variant=39288570085507",
       },
     },
+    {
+      who: Who.a,
+      wish: {
+        what: "Harry Potter og fangen fra Azkaban",
+        description: "Illustrert utgave",
+        link: "https://www.ark.no/boker/J-K-Rowling-Harry-Potter-og-fangen-fra-Azkaban-9788202476007",
+      },
+    },
   ],
   "2021": [
     {
