@@ -47,6 +47,13 @@ export const wishlist: AllTheWishes = {
         link: "https://www.ark.no/boker/J-K-Rowling-Harry-Potter-og-fangen-fra-Azkaban-9788202476007",
       },
     },
+    {
+      who: Who.o,
+      wish: {
+        what: "Lenovo Smart Clock 2 med trådløs lader",
+        link: "https://www.power.no/tv-og-lyd/traadloese-hoeyttalere/smarthoeyttaler/lenovo-smart-clock-2-med-traadloes-ladestasjon-graa/p-1202557/",
+      }
+    },
   ],
   "2021": [
     {
