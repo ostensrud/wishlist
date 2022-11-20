@@ -52,7 +52,21 @@ export const wishlist: AllTheWishes = {
       wish: {
         what: "Lenovo Smart Clock 2 med trådløs lader",
         link: "https://www.power.no/tv-og-lyd/traadloese-hoeyttalere/smarthoeyttaler/lenovo-smart-clock-2-med-traadloes-ladestasjon-graa/p-1202557/",
-      }
+      },
+    },
+    {
+      who: Who.a,
+      wish: {
+        what: "Harry Potter LEGO",
+      },
+    },
+    {
+      who: Who.a,
+      wish: {
+        what: "Statue of Liberty i LEGO",
+        link: "https://lekekassen.no/lego-architecture-21042-statue-of-liberty",
+        description: '"Sånn at jeg og pappa kan bygge sammen"',
+      },
     },
   ],
   "2021": [
