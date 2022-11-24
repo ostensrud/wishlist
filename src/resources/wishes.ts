@@ -68,6 +68,14 @@ export const wishlist: AllTheWishes = {
         description: '"Sånn at jeg og pappa kan bygge sammen"',
       },
     },
+    {
+      who: Who.o,
+      wish: {
+        what: "Trådløse ørepropper",
+        link: "https://prisguiden.no/produkt/sony-wf-1000xm4-506008",
+        description: "Sony WF-1000XM4 i sort",
+      },
+    },
   ],
   "2021": [
     {
