@@ -76,6 +76,13 @@ export const wishlist: AllTheWishes = {
         description: "Sony WF-1000XM4 i sort",
       },
     },
+    {
+      who: Who.k,
+      wish: {
+        what: "Vanntett førstehjelpspose tur og fritid 2L",
+        link: "https://www.rodekorsforstehjelp.no/produkter/forstehjelputstyr/forstehjelpsskrin/forstehjelp-tur-og-fritid-vanntettpose-2l/?_gl=1*8dt34v*_up*MQ..*_ga*ODk2NzkyNTI3LjE2Njk0NDgzMzU.*_ga_BVT6JSENJC*MTY2OTQ0ODMzMS4xLjAuMTY2OTQ0ODMzMS4wLjAuMA..",
+      },
+    },
   ],
   "2021": [
     {
