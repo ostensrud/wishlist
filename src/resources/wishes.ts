@@ -83,6 +83,21 @@ export const wishlist: AllTheWishes = {
         link: "https://www.rodekorsforstehjelp.no/produkter/forstehjelputstyr/forstehjelpsskrin/forstehjelp-tur-og-fritid-vanntettpose-2l/?_gl=1*8dt34v*_up*MQ..*_ga*ODk2NzkyNTI3LjE2Njk0NDgzMzU.*_ga_BVT6JSENJC*MTY2OTQ0ODMzMS4xLjAuMTY2OTQ0ODMzMS4wLjAuMA..",
       },
     },
+    {
+      who: Who.a,
+      wish: {
+        what: "T Rex og Atrociraptor på rømmen",
+        link: "https://lekekassen.no/lego-jurassic-world-76948-t-rex-og-atrociraptor-paa-roemmen",
+      },
+    },
+    {
+      who: Who.k,
+      wish: {
+        what: "Slikeskjerf til bruk inni bunadsskjorte i grønntoner",
+        description: "Eksempel fra Gullsmed Engen",
+        link: "https://gullsmedengen.no/produkt/bunadsolv/silkeskjerf-til-bunad/tyrihans-aurora-silkeskjerf-8/",
+      },
+    },
   ],
   "2021": [
     {
