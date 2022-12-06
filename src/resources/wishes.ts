@@ -98,6 +98,13 @@ export const wishlist: AllTheWishes = {
         link: "https://gullsmedengen.no/produkt/bunadsolv/silkeskjerf-til-bunad/tyrihans-aurora-silkeskjerf-8/",
       },
     },
+    {
+      who: Who.k,
+      wish: {
+        what: "Bidrag til Rotisserie til Weber Q300",
+        link: "https://www.weber.com/NO/no/tilbehr/tilbehr-etter-kategori/redskaper-og-kokekar/rotisserier/17524.html",
+      },
+    },
   ],
   "2021": [
     {
